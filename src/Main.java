@@ -1,9 +1,8 @@
-import javax.swing.*;
-import java.util.Scanner;
+import view.DashboardFrame;
 
 public class Main {
     public static void main(String[] args) {
-       TaskManagerDashboard task = new TaskManagerDashboard();
-       task.setVisible(true);
+        DashboardFrame dframe = new DashboardFrame();
+        dframe.setVisible(true);
     }
 }
